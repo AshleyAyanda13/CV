@@ -1,0 +1,1447 @@
+html, body
+{
+    height: 100%;
+    width: 100%;
+
+    color:rgb(238, 227, 227);
+    background-color: #050301;
+
+    overflow-x:hidden;
+
+  
+}
+
+
+.pi{
+position:absolute;
+top:0px;
+left: 0px;
+    width: 100vw;
+ 
+  
+
+    height: 200px;
+
+
+background-image:url(image.png) ;
+
+    background-color: aqua;
+  
+
+
+
+
+
+  
+    }
+
+    .container{
+        position:absolute;
+        top:0px;
+        left: 1%;
+            
+            width: 100vw;
+          
+
+        
+            height: 400px;
+        
+        
+      
+        
+            background-color: #2b2927;
+          }
+
+
+
+.pic{
+position: absolute;
+
+height: 300px;
+background-image: url("image.png");
+background-color: aqua;
+width: 100vw;
+top:-10px;
+
+left:10px;
+}
+.namecontainer{
+
+
+position: absolute;
+height: 30%;
+width: 100%;
+top:44%;
+display:flex;
+    left:280px;
+}
+
+
+.Name {
+
+    position: relative;
+
+    top:30px;
+    left: 99px;
+
+}
+
+.buttoncontainer
+
+
+{
+
+
+position:absolute;
+height: 40px;
+width:100px;
+top:250px;
+left:800px;
+border-radius: 30%;
+background-color:lightblue;
+color: white;
+}
+
+
+.contact:hover{
+
+
+
+
+
+    color:white;
+}
+
+
+
+
+.occupationholder{
+    position: absolute;
+left:380px;
+top:300px;
+}
+
+.locationholder{
+
+
+
+
+
+
+position:absolute;
+left:650px;
+top:300px;
+
+
+
+
+
+
+}
+
+.img
+
+
+
+{
+
+
+ clip-path:circle() ;
+
+height:200px;
+width: 200px;
+
+    position: absolute;
+
+
+left:90px;
+    top:220px;
+}
+
+#summ
+{
+
+margin-left: 25px;
+
+}
+
+
+.summary{
+
+
+
+top:90px;
+
+
+left: 75px;
+position: absolute;
+
+height: 200px;
+width:800px;
+
+background-color: #2b2927;
+font-size: 21px;
+border-radius: 20px 20px 20px 20px;
+
+align-items:center ;
+display: flex;
+justify-content: center;
+
+
+}
+
+
+.summary:hover
+{
+
+
+
+
+
+background-color: lightgreen;
+
+
+color:black;
+
+}
+
+
+
+.contactmecontainer
+{
+
+position: absolute;
+
+height: 200px;
+
+width:300px;   
+
+
+background-color: lightskyblue;
+
+    
+top:10px;
+
+
+
+
+
+
+}
+
+
+
+.restbody {
+
+
+
+
+
+
+    position:absolute;
+
+
+
+
+
+top:400px;
+
+height:3980px;
+
+width: 100vw;
+
+
+left: 0px;
+}
+
+
+
+
+.summarycontainer{
+
+
+
+
+    height: 500px;
+
+
+position: absolute;
+
+top:70px;
+width: 60%;
+
+
+
+
+
+}
+
+
+
+#user{
+
+
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right:20px;
+
+    
+
+    
+   
+}
+
+.summaryheader
+{
+
+
+   display: flex;
+
+    margin-left: 60px;
+
+}
+
+
+
+.overviewcontainer
+{
+
+
+
+
+
+
+    position:absolute;
+top:600px;
+
+
+
+
+
+height: 300px;
+width:100%;
+
+
+
+
+
+    
+}
+
+
+
+
+
+.Overviewheader
+{
+
+    display: flex;
+
+    margin-left: 60px;
+
+}
+
+
+
+.yearsexperiencecontainer{
+
+
+
+
+
+
+
+
+font-size: 21px;
+    position: absolute;
+
+
+        left:100px;
+
+
+
+
+width:400px;
+height:150px;
+
+
+
+
+    z-index: 0;
+
+
+
+
+    background-color: #2b2927;
+font-size: 21px;
+border-radius: 20px 20px 20px 20px;
+}
+
+
+
+.yearsexperiencecontainer:hover{
+
+
+
+
+    background-color: lightgreen;
+    color:#050301;
+   
+}
+
+
+
+
+.yearsexpcontainer
+{
+
+
+
+display: flex;
+
+
+
+font-size: 21px;;
+
+
+margin-left: 20px;
+
+}
+
+
+
+
+
+
+
+.year
+{
+
+
+
+    margin-top:42px ;
+    margin-left: 60px;
+}
+
+
+
+
+.postsecondaryeducationcontainer
+{
+
+    font-size: 21px;
+display: flex;
+
+    position: absolute;
+
+left:600px;
+
+        height:150px;
+    width: 400px;
+    background-color: #2b2927;
+    font-size: 21px;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+
+
+
+.postsecondaryeducationcontainer:hover
+{
+
+
+
+background-color: lightgreen;
+
+color:#050301;
+
+}
+
+
+.postsecondaryeducation
+{
+
+
+display: flex;
+
+
+margin-top: 20px;
+margin-left:25px;
+
+}
+
+.postyear
+{
+
+
+    position: absolute;
+
+margin-left: 70px;
+margin-top:40px;
+
+}
+.workhistorycontainer
+{
+
+
+
+
+position:absolute;
+
+
+top:950px;
+
+width:100%;
+height:930px;
+
+
+
+
+}
+
+
+.workhistoryheader
+{
+
+
+
+    display: flex;
+
+    margin-left: 60px;
+
+
+
+
+}
+
+
+.workhistory
+
+
+{
+
+
+
+
+
+
+
+
+
+
+
+
+position: absolute;
+
+
+left:80px;
+
+
+width:100%;
+
+height: 730px;
+
+
+
+
+}
+
+
+.workhistory h4
+{
+
+
+margin-left: 50px;
+
+
+}
+.workhistoryfirst
+{
+
+
+
+
+   
+position:absolute;
+
+
+width: 500px;
+
+height:240px;
+
+background-color: #2b2927;
+font-size: 21px;
+border-radius: 20px 20px 20px 20px;
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+.workhistoryfirst:hover
+{
+
+background-color: lightgreen;
+color:black;
+
+}
+
+#briefcase
+{
+
+
+    height: 2030px;
+
+
+
+}
+.workhistoryfirst>.caseholder
+{
+
+position:absolute;
+  
+height: 200px;
+
+top:20px;
+
+left:30px;
+
+}
+
+.workhistoryfirst>.dataholder
+{
+
+
+
+    position:absolute;
+
+
+
+left:79px;
+
+}
+
+
+.workhistorysecond
+{
+
+
+  
+    position:absolute;
+    height: 240px;
+    
+    width: 500px;
+    
+    background-color: #2b2927;
+
+top:300px;
+
+
+
+background-color: #2b2927;
+font-size: 21px;
+border-radius: 20px 20px 20px 20px;
+
+
+
+
+
+}
+
+
+
+.workhistorysecond:hover
+{
+
+
+
+
+background-color: lightgreen;
+
+color:#050301;
+
+}
+
+.workhistorysecond>.caseholder
+{
+
+position:absolute;
+  
+height: 200px;
+
+top:20px;
+
+left:30px;
+
+}
+
+.workhistorysecond>.dataholder
+{
+
+
+
+    position:absolute;
+
+
+
+left:79px;
+
+}
+
+
+
+
+.workhistorythird
+{
+
+
+   
+    position:absolute;
+    
+    
+    width: 500px;
+    height:240px;
+    background-color: #2b2927;
+
+
+top:600px;
+background-color: #2b2927;
+font-size: 21px;
+border-radius: 20px 20px 20px 20px;
+
+}
+.workhistorythird:hover
+{
+
+
+
+
+background-color: lightgreen;
+
+color:#050301;
+
+}
+
+.workhistorythird>.caseholder
+{
+
+position:absolute;
+  
+height: 200px;
+
+top:20px;
+
+left:30px;
+
+}
+
+
+.workhistorythird>.dataholder
+{
+
+
+
+    position:absolute;
+
+
+
+left:79px;
+
+}
+
+
+.educationcontainer{
+
+
+
+
+
+
+position:absolute;
+
+top:1900px;
+
+
+
+
+width: 100%;
+height:921px;
+
+
+}
+.educationheader
+{
+
+
+
+    display: flex;
+
+    margin-left: 60px;
+
+
+}
+
+
+.education
+{
+
+
+
+    position: absolute;
+
+
+    left:80px;
+    
+    
+    width:100%;
+    
+  
+    
+
+height: 743px;
+}
+
+
+.education h4
+{
+
+
+
+margin-left:30px;
+
+
+}
+
+
+.educationfirst{
+
+
+position:absolute;
+
+ 
+
+width: 400px;
+
+    top:7px;
+
+
+    background-color: #2b2927;
+    font-size: 21px;
+    border-radius: 20px 20px 20px 20px;
+
+
+}
+
+
+.educationfirst:hover
+{
+
+
+
+
+background-color: lightgreen;
+
+color:#050301;
+
+}
+.educationsecond{
+
+position:absolute;
+    top:350px;
+
+
+
+width: 400px;
+   
+    background-color: #2b2927;
+    font-size: 21px;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+
+.educationsecond:hover
+{
+
+
+
+
+background-color: lightgreen;
+
+color:#050301;
+
+}
+
+
+.skillscontainer
+{
+
+
+
+position:absolute;
+
+
+height:450px;
+width:100%;
+
+
+
+top:2850px;
+
+
+
+
+}
+
+
+.skillheader{
+
+
+display: flex;
+
+margin-left: 60px;
+
+
+}
+.skillsoverall
+{
+
+
+
+
+    
+
+    
+    display:flex;
+    
+position: absolute;
+
+left:100px;
+
+
+top:100px;
+width:600px;
+
+background-color: #87837f;
+
+
+
+background-color: #2b2927;
+font-size: 21px;
+border-radius: 20px 20px 20px 20px;
+}
+
+
+.skillsoverall:hover
+{
+
+
+
+background-color:lightgreen;
+color:black;
+
+
+
+}
+
+#skill{
+
+
+
+
+    margin-left: 50px;
+}
+#sk
+{
+
+margin-bottom: 10%;
+
+
+}
+li::marker
+{
+
+
+
+
+
+
+
+
+
+    color:blue;
+
+    background-color: aqua;
+
+  
+}
+
+
+.certificationcontainer
+{
+
+
+
+
+
+    position:absolute;
+
+    top:3350px;
+    
+    
+    
+    
+    width: 100%;
+    height:490px;
+
+
+
+
+
+
+
+
+
+}
+.certificationheader
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    margin-left: 60px;
+
+    display: flex;
+
+}
+.certification
+{
+
+
+
+    position: absolute;
+
+
+    left:80px;
+    
+    
+    width:100%;
+    
+    
+
+  height: 400px;
+
+
+}
+
+
+.certificationfirst{
+
+
+position:absolute;
+
+    background-color: white;
+
+width: 220px;
+
+ 
+
+
+    top:9px;
+
+left:10px;
+
+background-color: #2b2927;
+font-size: 21px;
+border-radius: 20px 20px 20px 20px;
+
+
+}
+
+
+
+.certificationfirst:hover
+{
+
+
+background-color: lightgreen;
+color:black;
+
+
+
+
+
+}
+.certificationsecond{
+
+position:absolute;
+    top:230px;
+
+    background-color: white;
+
+    width: 220px;
+   
+
+left:270px;
+
+
+background-color: #2b2927;
+font-size: 21px;
+border-radius: 20px 20px 20px 20px;
+
+
+}
+
+.certificationsecond:hover
+{
+
+background-color: lightgreen;
+
+color:black;
+
+}
+
+
+
+
+.certificationthird{
+
+
+position:absolute;
+
+
+    background-color: white;
+
+    width: 230px;
+
+
+    top:10px;
+left:560px;
+background-color: #2b2927;
+font-size: 21px;
+border-radius: 20px 20px 20px 20px;
+
+}
+
+.certificationthird:hover
+{
+
+
+
+background-color:lightgreen;
+color:black;
+
+
+
+}
+
+
+
+
+
+
+
+.containerr{
+    position:absolute;
+    top:3900px;
+
+
+    left: 0px;
+        
+        width: 100%;
+      
+    
+        height: 70px;
+    
+    
+    
+        background-color: #2b2927;
+        font-size: 21px;
+
+
+
+        display: flex;
+        justify-content:center;
+    
+    align-items:center;
+
+
+
+
+
+    
+      }
+
+
+      
+
+
+
+
+
+      .containerr ul{
+
+display: flex;
+
+
+list-style: none;
+
+
+
+position:absolute;
+
+left:170px;
+
+     
+      }
+
+      .containerr li
+      {
+
+
+
+
+
+       margin-left: 40px;
+
+
+
+      }
+.containerr li a
+{
+
+
+
+
+    text-decoration:none;
+    color:white
+}
+
+.containerr li a:hover
+{
+
+
+
+
+   color:green;
+}
+
+
+
+
+
+
+
+
+
+      .download
+      {
+
+
+
+
+height: 30px;
+background-color: rgb(240, 232, 227);
+
+border-radius: 30%;
+
+      }
+
+
+      .download:hover
+      {
+
+
+
+
+
+        background-color:green;
+
+
+
+      }
+
+
+
+
+
+
+
+      .div{
+
+
+
+
+position: absolute;
+left:890px;
+
+
+
+
+        height:5000px;
+
+
+        border: solid white;
+      }
+      
+      .image{
+
+
+
+
+        position:absolute;
+    
+        height: 200px;
+        
+        top:200px;
+
+
+
+        
+
+width: 250px;
+
+border-radius: 7%;
+
+
+      }
+      .myimage
+      {
+
+
+        position:absolute;
+    
+        height: 500px;
+        
+        top:500px;
+        left:1200px;
+
+        
+
+width: 500px;
+
+border-radius: 60%;
+border: solid lightgreen;
+        
+      }
+
+
+
+
+
+      .myimage:hover
+      {
+
+
+    border: solid lightgreen;
+
+
+
+
+
+
+
+      }
+
+      .buttonn
+      {
+
+
+        text-decoration: none;
+
+      }
+
+
+
+
+      .one
+      {
+
+
+
+
+position: absolute;
+
+
+left:80px;
+
+
+top:150px;
+
+
+
+
+font-size: 60px;
+
+
+
+color:lightgreen;
+      }
+    .two
+    
+    {
+
+        font-size: 60px;
+        left:360px;
+        position: absolute;
+
+color:lightgreen;
+
+
+
+        top:-50px;
+        
+    }
+
+    .three
+    {
+        left:660px;
+        top:154px;
+
+        position:absolute;
+        font-size: 60px;
+
+
+        color:lightgreen;
+    }
+
+
+
+
+
+  .five
+  {
+
+
+
+color:lightgreen;
+
+
+  }
+
+  
+
+
+  
